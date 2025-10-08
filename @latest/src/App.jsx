@@ -1,13 +1,14 @@
 import { useState } from "react";
-import Notes from "./components/Notes";
-import "./App.css";
+import HomePage from "./pages/Home";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <Notes>My Notes App</Notes>
+      <div>
+        <HomePage />
+      </div>
     </>
   );
 }
